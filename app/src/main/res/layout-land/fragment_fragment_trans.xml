@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bsz.words.FragmentTrans"
+    android:id="@+id/fragment_trans"
+    android:orientation="vertical"
+    android:screenOrientation="landscape"
+    android:configChanges="orientation|keyboardHidden|screenSize">
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragment_trans_web"/>
+
+
+</LinearLayout>
